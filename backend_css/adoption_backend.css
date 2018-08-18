@@ -1,0 +1,211 @@
+
+
+
+html, body {
+    min-width: 320px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    max-width: 2000px;
+    overflow-y: auto;
+    /* min-height: 100vh; */
+}
+
+aside {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    color: #E8EFF3;
+    font-size: 2em;
+}
+aside ul {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: 100%;
+}
+footer .flex-stretch-child {
+    margin: 10px;
+}
+footer {
+    font-size: 12px;
+}
+
+@media screen and (min-width: 1025px){
+	aside {
+  	width: 350px;
+	}
+}
+
+
+
+
+
+#flexRow-main {
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    align-content: stretch;
+}
+
+#flexRow-main aside ul {
+    padding: 0;
+}
+@media screen and (min-width: 1025px){
+	#flexRow-main {
+		height: -webkit-fill-available;
+	}
+	#flexRow-main {
+    display: flex;
+    display: -webkit-flex;
+    height: auto;
+    max-height: 900px;
+    flex-flow: row wrap;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+	}
+}
+
+#panelAddAnimal{
+	
+}
+
+
+#panel {
+	padding: 50px;
+	display: none;
+}
+
+#panel, #flip {
+	padding: 5px;
+	
+}
+
+
+.backend{
+	height: 100%;
+}
+.backend body{
+	height: 100%;
+}
+.backend header{
+	position: realative;
+	width: 100%;
+	top: 0;
+	height: 10%;
+	background-color: #441748;
+	border-bottom: solid;
+  border-bottom-color: #638291;
+  border-width: 10px;
+	
+}
+.main-content-flex-child {
+    height: 100%;
+    max-width: 2329px;
+    flex-grow: 1;
+    -webkit-flex: 1;
+    /* flex: 1 0 60vh; */
+    flex: 1 0;
+    position: relative;
+    overflow: hidden;
+}
+.page-Section h1{
+	border-bottom: solid;
+  border-bottom-color: #638291;
+  border-width: 10px;
+	
+}
+
+.backend footer{
+	position: absolute;
+  width: 100%;
+	height: 10%;
+  bottom: 0;
+	background-color: #441748;
+	color: white;
+}
+.backend footer .container{
+	padding: 0px;
+}
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-subtitle h2 {
+    color: black;
+    font-size: 3em;
+    margin-top: .5em;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px #5B7444;
+}
+.icons img {
+    height: 60px;
+    width: auto;
+}
+@media screen and (min-width: 426px)
+.flex-stretch, .flex-stretch-reverse {
+    flex-flow: row wrap;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+.flex-stretch-child {
+    flex-basis: auto;
+    flex-grow: 0;
+}
+
+.panel{
+	display: none;
+}
+.pageToolbar {
+    min-height: 50px;
+    background-color: #638291;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.sidebar-flex-child {
+    flex-basis: auto;
+    flex-grow: 0;
+}
+.sub-category-break-before{
+	border-color: #5B7444;
+  border: solid #5B7444;
+	border-right: 0px;
+	border-left: 0px;
+	border-top-width: 5px;
+	border-bottom-width: 0px;
+}
+
+#animal-Filter {
+    float: none;
+    border: solid;
+}
+
+#flexRow-main{
+	height:80%;
+}
+#formUserChange figure{
+	min-height: 200px;
+	background-color: darkgray;
+}
+#interactive-BackendContent{
+	overflow: scroll;
+}
+
+#interactive-BackendContent .panel{
+	border: solid;
+}
+
+#portal-header h1{
+	font-size: 1.25em;
+	color: white;
+	padding: 10px;
+	font-family: 'Vollkorn', serif;
+	font-weight: bold;
+}
+

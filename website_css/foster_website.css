@@ -1,0 +1,30 @@
+
+#fosterCare-mainDescription .description-left{
+	font-size: inherit;
+}
+
+
+
+@media screen and (max-width: 600px){
+	
+	#aboutFosterVolunteer .flex-stretch-reverse{
+		flex-flow: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
+	}
+	#aboutFosterVolunteer .polaroid {
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    transform: rotate(4deg);
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	#aboutFosterVolunteer #polaroid-container{
+		display: grid;
+	}
+	#aboutFosterVolunteer .polaroid img {
+		height: 100px;
+	}
+	
+}

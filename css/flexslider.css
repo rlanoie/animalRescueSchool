@@ -1,0 +1,44 @@
+.flexslider {
+	background: none;
+}
+
+.flexslider img{
+	width: -webkit-fill-available;
+}
+
+.flexslider ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.flexslider h2{
+	margin-top: 300px;
+	font-size: 3.5em;
+	color: white;
+  font-style: italic;
+  text-shadow: 1px 3px #3a4036;
+	margin-top: 0px;
+}
+
+.flex-caption, .flexslider h2  {
+	background: rgba(198, 216, 182, 0.63);
+  background: #63d51c38; 
+  position: absolute;
+	text-align: right;
+	padding: 10px;
+}
+
+
+.flex-next{
+	right: 100px;
+}
+
+.flexslider, .flex-viewport{
+	height: 100%;  
+}
+
+/*Carousel*/
+.carousel li{
+	
+}
+

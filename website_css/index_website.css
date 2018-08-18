@@ -1,0 +1,172 @@
+#aside-index li a{
+	text-decoration: none;
+  color: black;
+	font-weight: 700;
+}
+
+#highlight{
+	background-color: #FEFCD7;
+	color: black;
+	padding: 5px;
+}
+#highlight .container{
+	border: solid;
+	margin: 10px auto;
+}
+@media screen and (max-width: 425px){
+	#highlight{
+		font-size: .6em;
+	}
+}
+@media screen and (max-width: 1440px){
+	#highlight .container{
+		padding-bottom: 0px;
+	}
+}
+@media screen and (min-width: 426px) and (max-width: 1440px){
+	#highlight{
+		font-size: .9em;
+	}
+}
+
+#highlight .container a{
+	text-decoration: none;
+  color: black;
+}
+
+
+
+#index-mainSlide{
+	border: none;	
+}
+@media all and (max-width: 1440px){
+	#aside-index .page-Nav{
+		-webkit-margin-before: .25em;
+    -webkit-margin-after: .25em;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		
+	}
+}
+
+@media all and (max-width: 1024px) {
+  
+	aside .page-Nav{
+		display: none;
+	}
+	#flexRow-main {
+		display: block;
+	}
+	.flexslider h2{
+		font-size: 1.5em;
+	}
+}
+@media screen and (min-width: 1025px){
+	aside {
+		width: 350px;
+	}
+	
+	#flexRow-main{
+		height: 35vw;
+	}
+	.flex-control-nav {
+		bottom: 0px;
+	}
+	
+}
+@media screen and (min-width: 801px)and (max-width: 1024px){
+	.flexslider h2{
+		font-size: 2em;
+	}
+}
+
+
+
+/*Index primary slides section*/
+#index-mainSlide{
+	margin: 0
+}
+
+#index-mainSlide .align-bottom, #index-mainSlide .align-top{
+	top: 0;
+}
+@media all and (max-width: 320px) {
+	#index-mainSlide .align-bottom{
+		top: auto;
+		bottom: 0;
+		margin-bottom: 0px;
+	}
+}
+
+
+
+
+/*Featured Animals Section*/
+#featured-animals{
+	min-height: 250px;
+	min-width: 320px;
+}
+
+#featured-animals, .slider-text{
+	list-style-type:none;
+	margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+#featured-animals li:nth-child(odd){
+    background: #A3C586;
+}
+
+#featured-animals ul{
+	list-style: none;
+	-webkit-margin-before: 0px;
+	-webkit-padding-start: 0px;
+}
+
+#index-featureSlide{
+	border-radius: 0px;	
+}
+@media screen and (min-width: 769){
+	
+	#featured-animals .slides li{
+		min-width: 450px;
+	}	
+}
+@media screen and (max-width: 768){
+	#featured-animals .slides li{
+		width: 400px !important;
+	}
+	#featured-animals .slides li{
+		min-width: 200px;
+	}
+
+}
+
+@media screen and (min-width: 2001px){
+	#index-featureSlide ul{
+		display: flex;
+    display: -webkit-flex;
+    -webkit-align-content: stretch;
+		justify-content: space-around;
+		align-content: space-around;
+		
+    align-content: space-evenly;
+    justify-content: space-evenly;	
+		width: auto !important;
+	}
+	#index-featureSlide .slides>li{
+		display: list-item;
+	}
+	#index-featureSlide .carousel li {
+    flex-basis: auto;
+    flex-grow: 0;
+	}
+	#featured-animals li:nth-child(even) {
+		border: solid;
+		border-color: #A3C586;
+		border-width: thin;
+	}
+}
+
+#aboutUs

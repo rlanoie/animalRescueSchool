@@ -1,0 +1,92 @@
+header, h1, header #companyName-header a{
+	color: #5B7444;
+}
+
+#aside-index{
+	background: #A3C586;
+}
+nav{
+	background-color: #E8EFF3;
+  color: #E8EFF3;
+  border-top: solid #5B7444;
+	width: 100%;
+}
+nav .container{
+	background: #A3C586;
+}
+
+
+nav, .page-Section h1{
+  border-bottom: solid;
+  border-bottom-color: #638291;
+  border-bottom-width: 10px;
+}
+header, .page-Section h1{
+	background-color: #E8EFF3;
+}
+footer{
+	border-top: solid;
+  border-top-color: #638291;
+  border-width: 10px;
+	background-color: #E8EFF3;
+}
+.donate input{
+	color: #ffffff;
+	font-size: 1.75em;
+	font-weight: 700;
+	font-family: 'Vollkorn', serif;
+}
+
+.dropdown-content{
+	background-color: #E8EFF3;
+}
+
+.navbutton-toggle{
+	background-color: #FEFCD7;;
+}
+.container-subtitle h2, #adoptionAnimals-content .record-height .expand-toggle a {
+	font-family: 'Arizonia', Helvetica, sans-serif;
+	text-shadow: 1px 1px #5B7444;
+}
+.sub-category-topBottom{
+	border-color: #5B7444;
+  border: solid #5B7444;
+	border-right: 0px;
+	border-left: 0px;
+	border-top-width: 5px;
+	border-bottom-width: 0px;
+	border-bottom-width: 2px;	
+}
+.sub-category-break{
+	border-color: #5B7444;
+  border: solid #5B7444;
+	border-right: 0px;
+	border-left: 0px;
+	border-top-width: 5px;
+	border-bottom-width: 0px;
+}
+.sub-category-break-after{
+	border-color: #5B7444;
+  border: solid #5B7444;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom-width: 2px;
+	border-top: 0px;
+}
+
+
+
+
+/*Company Name*/
+#companyName-header{
+	padding: 10px;
+	font-family: 'Vollkorn', serif;
+	font-weight: bold;
+}
+
+#companyName-header .companyName-IndexOf, .sub-category h2{
+	font-weight: 400px;
+	font-family: 'Arizonia', Helvetica, sans-serif;
+}
+
+

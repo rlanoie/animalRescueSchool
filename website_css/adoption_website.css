@@ -1,0 +1,106 @@
+#adoptionAnimals-content .description-right{
+	max-height: 100%;
+	overflow: hidden;
+	line-height: 1.6;
+}
+
+
+#adoptionAnimals-content .record-height{
+	height: 40vh;
+}
+
+
+#adoptionAnimals-content .expand-toggle{
+	height: 40px;
+	position: relative;
+}
+#adoptionAnimals-content .expand-toggle a {
+	font-size: 25px;
+	font-weight: 900;
+}
+#adoptionAnimals-content .expand-toggle .none{
+	display: none;
+}
+
+/*More/Less Toggle section*/
+#adoptionAnimals-content .bigToggle{
+	position: absolute;
+	right: 0px;
+	bottom: 0;
+	margin-right: 40px;
+}
+#adoptionAnimals-content .bigToggle, #adoptionAnimals-content .smallToggle{
+	cursor:pointer;
+}
+
+#adoption-Search .filterButtons{
+	z-index: 10;
+  min-height: 60px;
+  position: sticky;
+  top: 73px;
+  background: #FEFCD7;
+	border-bottom: solid;
+}
+
+
+
+
+@media screen and (max-width: 425px){
+	
+	
+	#adoptionAnimals-content .bigToggle{
+		display: none;
+	}
+	
+	#adoptionAnimals-content .expand-toggle{
+		text-align: center;
+	}
+	
+	#adoptionAnimals-content .description-image{
+		width: 50%
+	}
+
+	#adoptionAnimals-content .description-right{
+		width: 90%
+	}
+	
+	#adoptionAnimals-content .description-text{
+		display: none;
+	}
+	
+	#adoptionAnimals-content .record-height {
+		height: auto !important;
+	}
+	#adoptionAnimals-content .smallToggle{
+		display: visible;
+	}
+	#adoption-filter-panel.panel_hidden{
+		height: 0px;
+	}
+	#adoption-filter-panel.panel_hidden_height{
+		height: 0px !Important;
+	}
+
+}
+@media screen and (min-width: 426px){
+	#adoptionAnimals-content .description-text{
+		display: initial !important;
+	}
+	
+	#adoptionAnimals-content .smallToggle{
+		display: none;
+	}
+	#adoption-filter-panel{
+		height: auto !Important;
+		visibility: inherit !Important;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px){
+	#adoptionAnimals-content .description-image{
+		width: 40%
+	}
+	#adoptionAnimals-content .description-right{
+		width: 60%
+	}
+}
